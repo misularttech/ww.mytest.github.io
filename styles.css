@@ -1,0 +1,21 @@
+@media only screen and (max-width: 600px) {
+            body {
+                font-size: 14px;
+            }
+        }
+button{
+	background:blue;
+	width:150px;
+	height:80px;
+	color:white;
+	font-family: roboto;
+	margin-left:560px;
+	margin-top: 210px;
+	border-radius: 320px;
+}
+button:hover{
+	background:black;
+	color:white;
+	box-shadow: 2px 2px 2px 2px blue;
+	transition-duration: 02s;
+}
